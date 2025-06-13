@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-game DESAFIO</title>
+    <link rel="stylesheet" href="assets/css/video.css" />
+    <script src="https://www.youtube.com/iframe_api"></script>
+  </head>
+  <body>
+    <!-- Título principal -->
+    <h1 id="main-title"><span id="typed-title"></span></h1>
+
+    <!-- Personagem -->
+    <div id="character">
+      <div id="speech-bubble">Shh... o vídeo já vai começar</div>
+    </div>
+
+    <!-- Mensagem final + Vídeo -->
+    <div id="message">
+      Você conseguiu passar pelo mini-game!<br />
+      <div id="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/UlGtZFk7gxg"
+          title="Embed a YouTube video in HTML"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!-- Player YouTube invisível -->
+    <div id="yt-player" style="width: 0; height: 0; overflow: hidden"></div>
+    <script src="assets/js/video.js"></script>
+  </body>
+</html>
