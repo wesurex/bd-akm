@@ -17,20 +17,19 @@
     </div>
 
     <!-- Mensagem final + Vídeo -->
-    <div id="message">
-      Você conseguiu passar pelo mini-game!<br />
-      <div id="video-container">
-        <iframe
-          src="https://www.youtube.com/embed/UlGtZFk7gxg"
-          title="Embed a YouTube video in HTML"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+    <div id="message" style="display: none">
+      Parabéns Alê!!!!!🎉🎉🎉🎉 <br />
+      <div id="video-container" style="display: none">
+        <video id="final-video" controls autoplay muted playsinline style="max-width: 100%; border-radius: 16px">
+          <source src="assets/videos/video-final.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
       </div>
     </div>
-    <!-- Player YouTube invisível -->
+
+    <!-- Player YouTube invisível (música de fundo) -->
     <div id="yt-player" style="width: 0; height: 0; overflow: hidden"></div>
+
     <script src="assets/js/video.js"></script>
   </body>
 </html>
