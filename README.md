@@ -25,7 +25,3 @@ Baixa manualmente aqui 👉
 
 Abra o arquivo `index.html` com o **Live Server** ou direto no navegador.
 
----
-
-**Pronto! Divirta-se!** 🎮  
-Se não funcionar, me chama no zap ou grita “bazinga!” que eu ajudo 😂
